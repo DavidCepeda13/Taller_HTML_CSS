@@ -1,0 +1,156 @@
+#Green{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 30px;
+    margin-left: 0px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid rgb(122, 255, 122);
+    border-bottom: 10px solid rgb(122, 255, 122);
+}
+
+#Stokes{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin: 30px;
+    margin-right: 0px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid rgb(255, 208, 120);
+    border-bottom: 10px solid rgb(255, 208, 120);
+}
+
+#Gauss{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 30px;
+    margin-left: 0px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid rgb(207, 0, 207);
+    border-bottom: 10px solid rgb(207, 0, 207);
+}
+
+#foot{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    height: 100px;
+    align-items: center;
+}
+
+#formSub{
+    margin-right: 20px;
+}
+
+
+/*< GREEN >======================================x>*/
+#textoGreen{
+    color:greenyellow;
+}
+
+#photoGreen{
+    text-align: center;
+    width: 35%;
+    margin: 10px;
+}
+
+#parrafoGreen{
+    border-radius: 100px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 80%);
+    border: 10px solid rgba(0, 0, 0, 50%);
+    width: 75%;
+}
+
+#imagenGreen{
+    border: 1px solid rgb(122, 255, 122);
+    border-radius: 10%;
+}
+/*<==============================================x>*/
+
+
+/*< STOKES >=====================================x>*/
+#textoStokes{
+    color: orange;
+}
+
+#photoStokes{
+    text-align: center;
+    width: 35%;
+    margin: 10px;
+}
+
+#parrafoStokes{
+    border-radius: 100px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 80%);
+    border: 10px solid rgba(0, 0, 0, 50%);
+    width: 75%;
+}
+
+#imagenStokes{
+    border: 1px solid rgb(255, 208, 120);
+    border-radius: 10%;
+}
+/*<==============================================x>*/
+
+/*< GAUSS >======================================x>*/
+#textoGauss{
+    color: purple;
+}
+
+#photoGauss{
+    text-align: center;
+    width: 35%;
+    margin: 10px;
+}
+
+#parrafoGauss{
+    border-radius: 100px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 80%);
+    border: 10px solid rgba(0, 0, 0, 50%);
+    width: 75%;
+}
+
+#imagenGauss{
+    border: 1px solid rgb(207, 0, 207);
+    border-radius: 10%;
+}
+/*<==============================================x>*/
+.carga {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+@keyframes rotacion {
+    0% {
+        stroke-dashoffset: 283;
+    }
+    100% {
+        stroke-dashoffset: 75;
+    }
+}
+
+.circulo-incompleto {
+    stroke-width: 10; /* Grosor del borde */
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 75;
+    animation: rotacion 2s linear infinite;
+}
+
+.circulo-completo{
+    stroke-width: 10; /* Grosor del borde */
+    fill: none;
+    stroke-linecap: round;
+}
